@@ -11,5 +11,4 @@ void TestFunction::evaluate_function(double *xreal, double &sum_f_e_f, int func_
 	default:
 		cout << "该函数不存在！！！请重新输入！！！" << endl;
 	}
-	
 }
