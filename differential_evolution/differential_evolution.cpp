@@ -2,9 +2,9 @@
 #include<math.h>
 using namespace std;
 int main() {
-	double c = sin(3.1415);
-	cout << c << endl;
-	cout << 11 << endl;
-	cout << 222 << endl;
+	double c = 1;
+	int b = 1;
+	double a = b + c / 10;
+	cout << a << endl;
 	system("pause");
 }
