@@ -116,9 +116,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="differential_evolution.cpp" />
+    <ClCompile Include="Individual.cpp" />
     <ClCompile Include="test_function.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Individual.h" />
     <ClInclude Include="test_function.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
