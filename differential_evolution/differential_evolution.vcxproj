@@ -117,6 +117,7 @@
   <ItemGroup>
     <ClCompile Include="differential_evolution.cpp" />
     <ClCompile Include="Individual.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="test_function.cpp" />
   </ItemGroup>
   <ItemGroup>
