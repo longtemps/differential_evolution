@@ -21,13 +21,13 @@
     <ClCompile Include="DifferentialEvolution.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Crand.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="CIndividual.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CTestFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Rand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,13 +35,13 @@
     <ClInclude Include="DifferentialEvolution.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="CRand.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="CIndividual.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="CTestFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Rand.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
