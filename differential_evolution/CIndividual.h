@@ -1,12 +1,12 @@
 #pragma once
 #define MAX_DIMENSION_OF_X 50
-class Individual
+class CIndividual
 {
 public:
-	Individual();
-	Individual(const Individual& );
-	Individual &operator=(const Individual&);
-	virtual ~Individual();
+	CIndividual();
+	CIndividual(const CIndividual& );
+	CIndividual &operator=(const CIndividual&);
+	virtual ~CIndividual();
 public:
 	static int dimension;//维度
 	static long long max_nfes;//最大适应值评价次数

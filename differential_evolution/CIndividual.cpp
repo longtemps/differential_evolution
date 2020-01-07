@@ -1,6 +1,6 @@
-#include "Individual.h"
+#include "CIndividual.h"
 
-Individual::Individual()
+CIndividual::CIndividual()
 {
 	for (int i = 0; i < MAX_DIMENSION_OF_X; i++)
 	{
@@ -10,7 +10,7 @@ Individual::Individual()
 	F = 0.5;
 	CR = 0.9;
 }
-Individual::Individual(const Individual& t) {
+CIndividual::CIndividual(const CIndividual& t) {
 	if (&t == this)
 		return;
 	for (int i = 0; i < MAX_DIMENSION_OF_X; i++) {
@@ -22,7 +22,7 @@ Individual::Individual(const Individual& t) {
 
 }
 
-Individual &Individual::operator=(const Individual& t) {
+CIndividual &CIndividual::operator=(const CIndividual& t) {
 	if (&t == this){
 		return *this;
 	}
@@ -37,6 +37,6 @@ Individual &Individual::operator=(const Individual& t) {
 
 
 
-Individual::~Individual()
+CIndividual::~CIndividual()
 {
 }
