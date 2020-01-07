@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="differential_evolution.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="test_function.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -27,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DifferentialEvolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test_function.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Individual.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DifferentialEvolution.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
