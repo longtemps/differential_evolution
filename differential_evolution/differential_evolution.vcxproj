@@ -115,12 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Crand.cpp" />
     <ClCompile Include="DifferentialEvolution.cpp" />
     <ClCompile Include="Individual.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="test_function.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CRand.h" />
     <ClInclude Include="DifferentialEvolution.h" />
     <ClInclude Include="Individual.h" />
     <ClInclude Include="test_function.h" />

@@ -27,6 +27,9 @@
     <ClCompile Include="DifferentialEvolution.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Crand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="test_function.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="DifferentialEvolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CRand.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
