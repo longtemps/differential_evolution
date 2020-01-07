@@ -119,13 +119,13 @@
     <ClCompile Include="DifferentialEvolution.cpp" />
     <ClCompile Include="CIndividual.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="test_function.cpp" />
+    <ClCompile Include="CTestFunction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CRand.h" />
     <ClInclude Include="DifferentialEvolution.h" />
     <ClInclude Include="CIndividual.h" />
-    <ClInclude Include="test_function.h" />
+    <ClInclude Include="CTestFunction.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

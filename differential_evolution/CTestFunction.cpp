@@ -1,20 +1,20 @@
-#include "test_function.h"
-#include "Individual.h"
-TestFunction::TestFunction()
+#include "CTestFunction.h"
+#include "CIndividual.h"
+CTestFunction::CTestFunction()
 {
 }
 
-TestFunction::~TestFunction()
+CTestFunction::~CTestFunction()
 {
 }
 
 
-void TestFunction::evaluate_function(double *xreal, double &value, int func_num) {
+void CTestFunction::evaluate_function(double *xreal, double &value, int func_num) {
 	//y = sum(XX. ^ 4 - 16 * XX. ^ 2 + 5 * XX) / 10 + 79.333;
 	switch (func_num) {
 	case 1:
 		value = 0.0;
-		for (int i = 0; i < Individual::dimension; i++) {
+		for (int i = 0; i < CIndividual::dimension; i++) {
 			value += (pow(xreal[i], 4) - 16 * pow(xreal[i], 2) + 5 * xreal[i]) / 10.0 + 79.33;
 		}
 		break;

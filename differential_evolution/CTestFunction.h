@@ -2,10 +2,10 @@
 #include<iostream>
 #include<math.h>
 using namespace std;
-class TestFunction {
+class CTestFunction {
 public:
-	TestFunction();
-	virtual ~TestFunction();
+	CTestFunction();
+	virtual ~CTestFunction();
 public:
 	void evaluate_function(double *xreal, double &value, int func_num);
 	//功能：计算函数值
